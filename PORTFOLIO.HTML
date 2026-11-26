@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .header{
+                height:55px;
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                position: fixed;
+                top:0px;
+                left:0px;
+                right:0px;
+                background-color:violet;
+                
+        
+
+                
+            }
+            .left{
+                width:200px;
+            
+        
+            }
+            .right{
+                display:flex;
+                flex-direction: row;
+                gap:30px;
+                
+            
+                
+
+
+            }
+            .introduction{
+                display: inline-block;
+                width:300px;
+            }
+            .greetings{
+                font-family: Arial;
+                font-size:15px;
+                color:blueviolet;
+            }
+            .name{
+                font-family: Arial;
+                font-size:30px;
+            }
+            .reason{
+                font-family: Arial;
+                font-size:16px;
+                color: blueviolet;
+            }
+            .work{
+                font-family:Arial;
+                font-size: 10px;
+            }
+            .button-1{
+                background-color: blueviolet;
+                color:white;
+                display:inline-block;
+                cursor:pointer;
+            }
+            .button-2{
+                display: inline-block;
+                cursor:pointer;
+                
+            }
+            .hero{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border:solid violet ;
+                padding:20px;
+                
+            }
+            .photo{
+                width:200px;
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+            }
+            .picture{
+                display:flex;
+                flex-direction: row;
+                justify-content: end;
+            }
+            .about{
+                font-family: Arial;
+                color:black;
+            }
+            .purpose{
+                font-family: Arial;
+                font-size:12px;
+                width:300px
+            }
+            .click{
+                background-color: blueviolet;
+                color:white;
+                border:none;
+                cursor: pointer;
+            }
+            .middle{
+                display:inline-block;
+            }
+
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                row-gap: 30px;
+                column-gap: 30px;
+            }
+            .identity{
+                display:grid;
+                grid-template-columns: 50px 150px;
+                align-items: center;
+            }
+            .title p{
+             margin:5px 0;
+            }
+            .icon{
+                height:20px;
+                width:30px;
+            
+            }
+            .hero-2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border: violet solid;
+                padding: 20px;
+            }
+            .project{
+                font-family: Arial;
+                font-size:20px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+            }
+            .screen{
+                width:400px;
+                height: 250px;
+                object-fit: cover;
+            }
+            
+            .youtube{
+                font-family: Arial;
+                font-weight: bold;
+
+            }
+            .about{
+                font-family:Arial;
+                font-size:14px;
+
+            }
+            .project-container{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap:30px;
+            }
+        
+            
+            
+              
+ 
+        </style>
+    </head>
+    <body style="padding-bottom:1000px;
+                 padding-top:55px;">
+        <header class="header">
+            <div class="left">
+                TEDDY WACHIRA
+            </div>
+
+            <nav class="right">
+                <a href="HOME">HOME</a>
+               <a href="#ABOUT">ABOUT</a> 
+               <a href="#SKILLS">SKILLS</a> 
+               <a href="#PROJECTS">PROJECTS</a> 
+               <a href="#CONTACT">CONTACT</a> 
+            </nav>
+        </header>
+         
+        <div class="hero">
+        <div class="introduction">
+
+        <p class="greetings">Hi ,my name is</p>
+        <h1 class="name">Ted Wachira.</h1>
+        <h2 class="reason">I build things for the web</h2>
+        <p class="work">I'm a web developer who loves building clean,responsive websites and applications</p>
+        <button class="button-1">View my work</button>
+        <button class="button-2">Contact me</button>
+
+        </div>
+
+        <div class="picture">
+            <img class="photo" src="thumb nails/passport.photo.png">
+        </div>
+
+        </div>
+
+        <div class="hero-2">
+
+        <div class="middle">
+            <h1 class="about">About Me</h1>
+            <p class="purpose">
+                I am a passionate web developer with a love for learning 
+                and problem solving .I enjoy turning ideas
+                into real projects using HTML,CSS and Javascript
+            </p>
+
+            <button class="click">Download CV</button>
+        </div>
+            
+        <div class="grid">
+        <div class="identity">
+            <img class="icon" src="icons/name.png">
+            <div class="title">
+            <p>Name</p>
+            <p>Teddy Wachira</p>
+            </div>
+
+        </div>
+
+        
+ <div class="identity">
+            <img class="icon" src="icons/name.png">
+            <div class="title">
+                 <p>Education</p>
+            <p> Software engineering student</p>
+ 
+            </div>
+          
+        </div>
+
+        <div class="identity">
+            <img class="icon" src="icons/name.png">
+            <div class="title">
+                 <p>Email</p>
+            <p>teddywachira@gmail</p>
+            </div>
+           
+        </div>
+
+<div class="identity">
+            <img class="icon" src="icons/name.png">
+
+            <div class="title">
+           <p>Location</p>
+            <p>Nairobi, Kenya</p>
+
+            </div>
+          
+        </div>
+        </div>
+
+        </div>
+
+        
+            
+            <p class="project">MY PROJECTS</p>
+            
+                   <div class="project-container">
+               <div class="flex">
+            <div class="preview">
+                
+            <img class="screen" src="thumb nails\Screenshot 2026-08-11 203129.jpg">
+
+                </div>
+            
+               <div>
+            <p class="youtube">Youtube clone</p>
+            <p class="about">A simple Youtube clone page built with html css</p>
+            <a href="youtube.html">Click here to view project</a>
+
+               </div>
+               </div>
+
+                   
+        
+
+           <div class="flex">
+            <div class="preview">
+                
+            <img class="screen" src="thumb nails\Screenshot 2026-08-14 145716.jpg">
+
+                </div>
+            
+               <div>
+            <p class="youtube">To-do list</p>
+            <p class="about">A simple To-do list pagebuilt with html css</p>
+            <a href="To do list.html">Click here to view project</a>
+
+               </div>
+               </div>
+
+
+
+ 
+                   
+        </div>
+    </div>
+
+     
+    </body>
+</html>
